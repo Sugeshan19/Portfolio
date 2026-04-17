@@ -23,7 +23,6 @@ export const metadata: Metadata = {
     "Backend Developer",
     "Web Designer",
     "Web Developer",
-    "Portfolio",
     "Technology Enthusiast",
     "Computer Science Student",
     "E-commerce Developer",

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ScrollPop from "./ScrollPop";
 
 interface Project {
   id: number;
@@ -33,7 +34,7 @@ export default function Projects(): React.JSX.Element {
           const isEven = index % 2 === 1;
           
           return (
-            <div key={project.id} className="mb-20 last:mb-0">
+            <ScrollPop key={project.id} className="mb-20 last:mb-0" delay={index * 0.08}>
               <div className={`relative grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center ${
                 isEven ? "lg:grid-flow-dense" : ""
               }`}>
@@ -99,7 +100,7 @@ export default function Projects(): React.JSX.Element {
                   </div>
                 </div>
               </div>
-            </div>
+            </ScrollPop>
           );
         })}
       </div>

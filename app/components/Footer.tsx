@@ -3,32 +3,36 @@ import Image from "next/image";
 
 export default function Footer(): React.JSX.Element {
   return (
-    <footer id="contact" className="py-10  px-6 border-t border-white/10">
+    <footer id="contact" className="py-4 px-6 border-t border-white/10 bg-[#06020d]">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-            Contact
-          </h2>
-          <p className="text-md text-white/80 max-w-2xl mx-auto mb-8">
-            I&apos;m currently looking to join a cross-functional team that values 
-            improving people&apos;s lives through accessible design, or have a project 
-            in mind? Let&apos;s connect.
-          </p>
-          <a
-            href="mailto:sugeshansenthilv@gmail.com"
-            className="text-md text-purple-400 hover:text-purple-300 transition-colors"
+        {/* Fixed Contact Icons */}
+        <div className="fixed right-4 bottom-6 z-[60] flex flex-col items-center gap-3 sm:right-6">
+          <Link
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=sugeshansenthilv@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transform-gpu transition-all duration-300 ease-out hover:scale-125 active:scale-95 hover:shadow-[0_0_18px_rgba(168,85,247,0.55)]"
+            aria-label="Send email via Gmail"
           >
-            sugeshansenthilv@gmail.com
-          </a>
-        </div>
-
-        {/* Social Media Icons */}
-        <div className="flex justify-center gap-6 mt-12">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-5 w-5 text-white transition-transform duration-300 group-hover:scale-110"
+            >
+              <path d="M4 4h16v16H4z" />
+              <path d="m22 6-10 7L2 6" />
+            </svg>
+          </Link>
           <Link
             href="https://www.instagram.com/its_sugesh_19/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
+            className="group w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transform-gpu transition-all duration-300 ease-out hover:scale-125 active:scale-95 hover:shadow-[0_0_18px_rgba(168,85,247,0.55)]"
             aria-label="Instagram"
           >
             <Image
@@ -36,18 +40,18 @@ export default function Footer(): React.JSX.Element {
               alt="Instagram"
               width={20}
               height={20}
-              className="w-5 h-5"
+              className="w-5 h-5 transition-transform duration-300 group-hover:scale-110"
             />
           </Link>
           <Link
             href="https://github.com/Sugeshan19"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
+            className="group w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transform-gpu transition-all duration-300 ease-out hover:scale-125 active:scale-95 hover:shadow-[0_0_18px_rgba(168,85,247,0.55)]"
             aria-label="GitHub"
           >
             <svg
-              className="w-5 h-5 text-white"
+              className="w-5 h-5 text-white transition-transform duration-300 group-hover:scale-110"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -58,11 +62,11 @@ export default function Footer(): React.JSX.Element {
             href="https://www.linkedin.com/in/sugeshan-s/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
+            className="group w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transform-gpu transition-all duration-300 ease-out hover:scale-125 active:scale-95 hover:shadow-[0_0_18px_rgba(168,85,247,0.55)]"
             aria-label="LinkedIn"
           >
             <svg
-              className="w-5 h-5 text-white"
+              className="w-5 h-5 text-white transition-transform duration-300 group-hover:scale-110"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -71,9 +75,9 @@ export default function Footer(): React.JSX.Element {
           </Link>
         </div>
 
-        <div className="text-center mt-12 pt-8 border-t border-white/10">
+        <div className="text-center pt-2">
           <p className="text-white/60 text-sm">
-            © {new Date().getFullYear()} Sugeshan S. All rights reserved.
+            © {new Date().getFullYear()} Sugeshan S. <span className="text-cyan-300">All rights reserved.</span>
           </p>
         </div>
       </div>
