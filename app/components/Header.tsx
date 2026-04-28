@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
-const sections = ["home", "experience", "about", "lab"];
+const sections = ["home", "experience", "about", "lab", "achievements"];
 
 export default function Header(): React.JSX.Element {
   const pathname = usePathname();
@@ -97,6 +97,11 @@ export default function Header(): React.JSX.Element {
             <li>
               <Link href={sectionHref("lab")} className={navClass("lab")} onClick={() => setActive("lab")}>
                 Projects
+              </Link>
+            </li>
+            <li>
+              <Link href={sectionHref("achievements")} className={navClass("achievements")} onClick={() => setActive("achievements")}>
+                Achievements
               </Link>
             </li>
             <li>

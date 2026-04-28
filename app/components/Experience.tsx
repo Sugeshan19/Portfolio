@@ -68,7 +68,7 @@ export default function Experience(): React.JSX.Element {
           ))}
         </div>
 
-        <div className="mt-20">
+        <div className="mt-20" id="achievements">
           <ScrollPop className="mb-12" delay={0.02}>
             <h2 className="text-4xl lg:text-5xl font-bold text-white text-center">
               Achievements
