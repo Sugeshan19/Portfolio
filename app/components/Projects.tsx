@@ -24,6 +24,7 @@ const featuredProjects: Project[] = [
    link: "https://sugeshan19.github.io/NammaKadai/",
     image: "/projects/2.png",
   },
+  
 ];
 
 export default function Projects(): React.JSX.Element {
@@ -103,6 +104,19 @@ export default function Projects(): React.JSX.Element {
             </ScrollPop>
           );
         })}
+      </div>
+      {/* Client Projects & Production Maintenance Section */}
+      <div className="mt-16 max-w-4xl mx-auto">
+        <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4">Client Projects & Production Maintenance</h2>
+        <ul className="list-disc list-inside text-white/90 text-base lg:text-lg space-y-3">
+          <li>Delivered and actively maintain <b>30+ production-grade web applications</b> across domains including SaaS tools, business platforms, and custom dashboards.</li>
+          <li>Owned full lifecycle delivery (requirements → architecture → deployment) using <b>MERN stack</b>, shipping scalable, modular applications in real client environments.</li>
+          <li>Supported <b>1,500+ cumulative users</b> across deployed systems, ensuring high availability and consistent performance under live usage.</li>
+          <li>Reduced recurring production issues by ~40% through proactive debugging, structured logging, and optimized API/data flows.</li>
+          <li>Improved application performance (load time & API latency) by <b>20–35%</b> across multiple projects via query optimization, caching, and frontend tuning.</li>
+          <li>Managed continuous maintenance: feature rollouts, bug fixes, and version upgrades with minimal downtime across all active deployments.</li>
+          <li>Collaborated directly with clients and stakeholders, translating business requirements into deployable features with fast iteration cycles.</li>
+        </ul>
       </div>
     </section>
   );

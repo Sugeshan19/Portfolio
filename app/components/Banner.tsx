@@ -142,10 +142,9 @@ export default function Banner(): React.JSX.Element {
             <span>💻</span >
           </p>
           <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
-            I’m a passionate Computer Science and Engineering undergraduate with a strong 
-            curiosity for solving real-world problems through technology. Currently exploring 
-            web development (React, Node.js, MongoDB) and building projects ranging from e-commerce
-            platforms to social impact solutions like emergency volunteer alert systems.
+            Full Stack Developer with hands-on production experience building and scaling MERN applications serving 2,800+ active users. 
+            Progressed from intern to technical ownership within a startup environment, delivering measurable performance improvements 
+            through API optimization, async architecture, and cross-functional Agile collaboration. Strong foundation in React, Node.js, Express, and MongoDB with a focus on clean architecture and measurable delivery.
           </p>
         </div>
       </div>
