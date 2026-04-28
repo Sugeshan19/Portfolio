@@ -1,68 +1,53 @@
-## 🧑‍💻 My Portfolio Website
+<div align="center">
 
-Welcome to my personal portfolio website — a digital space where I showcase my skills, projects, and passion for web development.
+# 🧑‍💻 Sugeshan's Portfolio
 
-## 🚀 About This Project
+[![Portfolio Live](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://my-portfolio-tau-orpin-59.vercel.app/)
 
-This portfolio is built to highlight my journey as a Computer Science Engineering student and an aspiring Full Stack Developer.
-It includes details about me, my technical skills, and the projects I’ve built so far.
+A modern, responsive portfolio website to showcase my skills, projects, and journey as a Computer Science Engineering student and aspiring Full Stack Developer.
 
-## 💻 Tech Stack
+</div>
 
-Frontend: React.js, HTML5, CSS3, JavaScript
+---
 
-Styling: Custom CSS, responsive design
+## 🚀 Tech Stack
 
-Deployment: GitHub Pages
+- **Frontend:** React.js, Next.js, TypeScript, HTML5, CSS3, JavaScript
+- **Styling:** Custom CSS, Responsive Design
+- **Deployment:** Vercel
 
 ## 🌟 Features
 
-🎨 Clean and modern user interface
+- Clean, modern user interface
+- Animated typing effects
+- Fully responsive for all devices
+- Project and certificate showcase
+- Smooth navigation
 
-⌨️ Animated typing effect using react-typed
+## 📂 Main Sections
 
-📱 Fully responsive design for all screen sizes
-
-## 🧠 Sections for:
-
-About Me
-
-Skills
-
-Projects
-
-Contact Me
-
-
-## 🔗 Live Demo
-
-[👉 View My Portfolio](https://my-portfolio-tau-orpin-59.vercel.app/)
-
+- About Me
+- Skills
+- Projects
+- Certificates
+- Contact
 
 ## 👨‍🎓 About Me
 
-Hi! I’m Sugeshan, a passionate Computer Science and Engineering student aiming to become a Full Stack Developer at Zoho.
-My father’s inspiring words and my girl who supports me every day, both push me toward achieving my goals. ❤️
+Hi! I’m **Sugeshan**, a passionate Computer Science and Engineering student with a goal to become a Full Stack Developer at Zoho. Inspired by my father and supported by my loved ones, I strive to learn and grow every day.
 
-## I’m skilled in:
+## 🛠️ Skills
 
-⚛️ React
+- ⚛️ React, Next.js
+- 🧩 HTML, CSS, JavaScript, TypeScript
+- 🐍 Python
+- 📚 Currently learning: Node.js, Express, MongoDB
 
-🧩 HTML, CSS, JavaScript
+## 📬 Contact
 
-🐍 Python
+- 📧 Email: [sugeshansenthilv@gmail.com](mailto:sugeshansenthilv@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/sugeshan-s](https://www.linkedin.com/in/sugeshan-s)
 
-📚 Currently learning Node.js, Express, and MongoDB
+---
 
-## 📬 Contact Me
-
-If you’d like to connect or collaborate, feel free to reach out!
-
-📧 Email: [sugeshansenthilv@gmail.com]
-
-💼 LinkedIn: [www.linkedin.com/in/sugeshan-s]
-
-
-⭐ Show Your Support
-
-If you like this project, please give it a star on GitHub — it really motivates me to keep improving! 🌟
+⭐ **If you like this project, please star the repo! Your support motivates me to keep building and improving.**
