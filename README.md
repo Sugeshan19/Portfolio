@@ -2,7 +2,7 @@
 
 # 🧑‍💻 Sugeshan's Portfolio
 
-[![Portfolio Live](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://my-portfolio-tau-orpin-59.vercel.app/)
+[![Portfolio Live](https://sugeshan-s.vercel.app/)](https://my-portfolio-tau-orpin-59.vercel.app/)
 
 A modern, responsive portfolio website to showcase my skills, projects, and journey as a Computer Science Engineering student and aspiring Full Stack Developer.
 
